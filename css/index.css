@@ -1,0 +1,73 @@
+body
+{
+     width:600px;
+}
+#messages
+{
+    width: 100%;
+    height:350px;
+    overflow:auto;
+    border:1px solid silver;
+}
+
+#loginForm
+{
+    margin: 10px 0 10px 0;
+}
+
+#idlogin, #idpassword, #dtnLogin, #mess_to_send, #btn_send_msg
+{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#idlogin, #idpassword
+{
+    width: 33%;
+}
+
+#dtnLogin
+{
+    width: 10%;
+    margin: 5px;
+}
+
+
+#info
+{
+    width: 100%;
+    height: 30px;
+    border-color: darkgray;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+#chat
+{
+    width: 70%;
+    float: left;
+}
+
+#user
+{
+    width: 25%;
+    height:350px;
+    border:1px solid silver;
+    float: right;
+}
+
+#error_message
+{
+	padding: 5px;
+}
+
+#user_name
+{
+	padding: 0 0 0 5px;
+	margin: 0;
+}
+
+.user_info 
+{
+	padding: 10px 0 10px 10px;
+	margin: 0;
+}
